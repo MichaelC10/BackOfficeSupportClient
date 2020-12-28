@@ -1,0 +1,62 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.5em;
+	color: #000;
+}
+
+h1{
+	text-align: center;
+}
+
+table{
+	width: 80%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+th{
+	border: 1px solid black;
+	height: 25px;
+}
+
+/* ce ciblage est spécifique, je touche à un élément particulier que je cible
+	donc le code qui est juste en bas avec td n'écrasera pas ce code.
+	-> le premier td de chaque ligne sera bien aligné à droite et non pas au centre.
+ */
+table tr td:nth-child(1){
+	text-align: right;
+}
+
+td{
+	border: 1px solid black;
+	text-align: center;
+	height: 35px;
+}
+
+#pastilleRouge{
+	color: red;
+	margin-right: 5px;
+}
+
+#pastilleOrange{
+	color: orange;
+	margin-right: 5px;
+}
+
+.fa-exclamation-triangle{
+	color: orange;
+	margin-right: 5px;
+}
+
+.statut{
+	border: none;
+}
+
+
+
+
+
